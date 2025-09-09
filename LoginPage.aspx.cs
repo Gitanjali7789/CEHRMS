@@ -15,8 +15,7 @@ namespace CEHRMS
 {
     public partial class LoginPage : System.Web.UI.Page
     {
-        SqlConnection conn = new SqlConnection(
-            @"Data Source=lol7789\SQLEXPRESS; Initial Catalog=CEHRMS; Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Server=localhost\SQLEXPRESS; Database=CEHRMS; Trusted_Connection=True;");
         DataTable dt;
         SqlDataAdapter sda;
         SqlCommand cmd;
