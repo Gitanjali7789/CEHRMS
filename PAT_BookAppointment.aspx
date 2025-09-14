@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PAT_Dashboard.aspx.cs" Inherits="CEHRMS.PAT_Dashboard" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PAT_BookAppointment.aspx.cs" Inherits="CEHRMS.PAT_BookAppointment" %>
 
 <!DOCTYPE html>
 
@@ -134,43 +134,42 @@
                 </div>
             </nav>
             <!-- Navbar end -->
-            <div class="container-fluid pt-5 px-4">
-                <div class="row g-4">
-                    <div class="backimg" style="margin-top: -75px;">
-                        <img src="assets2/img/dashboardBG1.png" style="height: 500px; margin-top: 38px;" />
-                    </div>
-                    <div class="col-sm-4 ">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-line fa-6x text-success"></i>
-                            <div class="ms-4">
-                                <h4 class="mb-2"><b>Total No. Of Visit</b></h4>
-                                <%--                                <h5 class="mb-0"></h5>--%>
-                                <h5 class="mb-0">
-                                    <asp:Label ID="lblTotalVisit" runat="server" Text=""></asp:Label></h5>
-
-                            </div>
+<div class=" rounded-3 text-black">
+    <div class="row g-0">
+        <div class="card-body p-md-5 mx-md-4">
+            <form class="form-inline login-content" runat="server">
+                <h3>Please Book your Appointment</h3>
+                <div class="form-outline mb-4">
+                    Select Hospital :
+                    <asp:DropDownList ID="ddlHospital" runat="server" Class="form-control" OnSelectedIndexChanged="ddlHospital_SelectedIndexChanged" AutoPostBack="true"></asp:DropDownList>
+                </div>
+                <div class="form-outline mb-4">
+                    Select Department : 
+                    <asp:DropDownList ID="ddlDepartment" runat="server" class="form-control" OnSelectedIndexChanged="ddlDepartment_SelectedIndexChanged" AutoPostBack="true"></asp:DropDownList>
+                </div>
+                <div class="form-outline mb-4">
+                    Select Doctor :
+                    <asp:DropDownList ID="ddlDoctor" runat="server" class="form-control" OnSelectedIndexChanged="ddlDoctor_SelectedIndexChanged"></asp:DropDownList>
+                </div>
+                <div class="form-outline mb-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            Date :<asp:TextBox ID="txtDate" TextMode="Date" class="form-control" runat="server"></asp:TextBox>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-xl-4">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-bar fa-6x text-success"></i>
-                            <div class="ms-4">
-                                <h4 class="mb-2"><b>Upcoming Visit</b></h4>
-                                <h5 class="mb-0"><a href="UpcomingAppointmentPage.aspx">View</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-xl-4">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-area fa-6x text-success"></i>
-                            <div class="ms-6">
-                                <h4 class="mb-2"><b>Expenditure</b></h4>
-                                <h5 class="mb-0">Rs - 10,000</h5>
-                            </div>
+                        <div class="col-md-6">
+                            Time :<asp:TextBox ID="txtTime" TextMode="Time" class="form-control" runat="server"></asp:TextBox>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="text-center pt-1 mb-5 pb-1">
+                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-success  gradient-custom-2 mb-3" OnClick="btnSubmit_Click" />
+                    <asp:Button ID="btnCancel" runat="server" Text="Cancel" CssClass="btn btn-warning gradient-custom-2 mb-3" OnClick="btnCancel_Click" />
+                    <asp:Label ID="lblMsg" runat="server" Text="" ForeColor="Red"></asp:Label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
             <a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
         </div>
     </div>
@@ -188,3 +187,4 @@
     <script src="assets1/js/main.js"></script>
 </body>
 </html>
+

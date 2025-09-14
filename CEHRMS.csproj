@@ -242,6 +242,81 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="ADM_Dashboard.aspx" />
+    <Content Include="assets1\css\bootstrap.min.css" />
+    <Content Include="assets1\css\style.css" />
+    <Content Include="assets1\img\testimonial-1.jpg" />
+    <Content Include="assets1\img\testimonial-2.jpg" />
+    <Content Include="assets1\img\user.jpg" />
+    <Content Include="assets1\js\main.js" />
+    <Content Include="assets1\lib\chart\chart.min.js" />
+    <Content Include="assets1\lib\easing\easing.js" />
+    <Content Include="assets1\lib\easing\easing.min.js" />
+    <Content Include="assets1\lib\owlcarousel\assets\ajax-loader.gif" />
+    <Content Include="assets1\lib\owlcarousel\assets\owl.carousel.css" />
+    <Content Include="assets1\lib\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="assets1\lib\owlcarousel\assets\owl.theme.default.css" />
+    <Content Include="assets1\lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Include="assets1\lib\owlcarousel\assets\owl.theme.green.css" />
+    <Content Include="assets1\lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Include="assets1\lib\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="assets1\lib\owlcarousel\owl.carousel.js" />
+    <Content Include="assets1\lib\owlcarousel\owl.carousel.min.js" />
+    <Content Include="assets1\lib\tempusdominus\css\tempusdominus-bootstrap-4.css" />
+    <Content Include="assets1\lib\tempusdominus\css\tempusdominus-bootstrap-4.min.css" />
+    <Content Include="assets1\lib\tempusdominus\js\moment-timezone.min.js" />
+    <Content Include="assets1\lib\tempusdominus\js\moment.min.js" />
+    <Content Include="assets1\lib\tempusdominus\js\tempusdominus-bootstrap-4.js" />
+    <Content Include="assets1\lib\tempusdominus\js\tempusdominus-bootstrap-4.min.js" />
+    <Content Include="assets1\lib\waypoints\waypoints.min.js" />
+    <Content Include="assets2\css\style.css" />
+    <Content Include="assets2\css\StyleSheet1.css" />
+    <Content Include="assets2\img\avatar.svg" />
+    <Content Include="assets2\img\bg.svg" />
+    <Content Include="assets2\img\BG2.png" />
+    <Content Include="assets2\img\BOOK AN APPOINTMENT.png" />
+    <Content Include="assets2\img\cehms-high-resolution-logo.png" />
+    <Content Include="assets2\img\cehms-logo1.png" />
+    <Content Include="assets2\img\client2.jpg" />
+    <Content Include="assets2\img\client3.jpg" />
+    <Content Include="assets2\img\DashboardBg.png" />
+    <Content Include="assets2\img\dashboardBG1.png" />
+    <Content Include="assets2\img\FilledStar.gif" />
+    <Content Include="assets2\img\HealthCardBg.png" />
+    <Content Include="assets2\img\HealthCardNewBgCrop.png" />
+    <Content Include="assets2\img\logo-color.png" />
+    <Content Include="assets2\img\LogoNewBetter.png" />
+    <Content Include="assets2\img\LogoNewTransparent.png" />
+    <Content Include="assets2\img\logozoom-removebg-preview.png" />
+    <Content Include="assets2\img\logozoom.png" />
+    <Content Include="assets2\img\PrescriptionBg.png" />
+    <Content Include="assets2\img\RegBg.png" />
+    <Content Include="assets2\img\Star.gif" />
+    <Content Include="assets2\img\user.png" />
+    <Content Include="assets2\img\WaitingStar.gif" />
+    <Content Include="assets2\img\wave.png" />
+    <Content Include="assets2\js\main.js" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\images\about-img.jpg" />
+    <Content Include="assets\images\client.jpg" />
+    <Content Include="assets\images\d1.jpg" />
+    <Content Include="assets\images\d2.jpg" />
+    <Content Include="assets\images\d3.jpg" />
+    <Content Include="assets\images\favicon.png" />
+    <Content Include="assets\images\hero-bg.png" />
+    <Content Include="assets\images\s1.png" />
+    <Content Include="assets\images\s2.png" />
+    <Content Include="assets\images\s3.png" />
+    <Content Include="assets\images\s4.png" />
+    <Content Include="assets\images\t1.jpg" />
+    <Content Include="assets\images\t2.jpg" />
+    <Content Include="assets\images\t3.jpg" />
+    <Content Include="assets\images\t4.jpg" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\jquery-3.4.1.min.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -266,8 +341,17 @@
     <Content Include="Global.asax" />
     <Content Include="LoginPage.aspx" />
     <Content Include="Mail.aspx" />
+    <Content Include="PAT_BookAppointment.aspx" />
     <Content Include="PAT_Dashboard.aspx" />
+    <Content Include="PAT_Feedback.aspx" />
+    <Content Include="PAT_FeeDoctor.aspx" />
+    <Content Include="PAT_FeeMedicine.aspx" />
+    <Content Include="PAT_FeePathology.aspx" />
     <Content Include="PAT_HealthCardPage.aspx" />
+    <Content Include="PAT_HistoryAppointment.aspx" />
+    <Content Include="PAT_OrderMedicine.aspx" />
+    <Content Include="PAT_PathologyReport.aspx" />
+    <Content Include="PAT_UpcomingAppointment.aspx" />
     <Content Include="QRCode.aspx" />
     <Content Include="REC_Dashboard.aspx" />
     <Content Include="RegistrationPage.aspx" />
@@ -299,6 +383,95 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="assets1\lib\owlcarousel\LICENSE" />
+    <Content Include="assets1\lib\waypoints\links.php" />
+    <Content Include="assets1\scss\bootstrap.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\bootstrap-grid.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\bootstrap-reboot.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\bootstrap-utilities.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\bootstrap.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_floating-labels.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_form-check.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_form-control.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_form-range.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_form-select.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_form-text.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_input-group.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_labels.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\forms\_validation.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\helpers\_clearfix.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\helpers\_colored-links.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\helpers\_position.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\helpers\_ratio.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\helpers\_stretched-link.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\helpers\_text-truncation.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\helpers\_visually-hidden.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_alert.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_border-radius.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_box-shadow.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_breakpoints.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_buttons.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_caret.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_clearfix.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_color-scheme.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_container.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_deprecate.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_forms.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_gradients.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_grid.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_image.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_list-group.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_lists.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_pagination.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_reset-text.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_resize.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_table-variants.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_text-truncate.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_transition.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_utilities.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\mixins\_visually-hidden.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\utilities\_api.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\vendor\_rfs.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_accordion.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_alert.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_badge.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_breadcrumb.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_button-group.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_buttons.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_card.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_carousel.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_close.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_containers.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_dropdown.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_forms.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_functions.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_grid.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_helpers.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_images.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_list-group.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_mixins.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_modal.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_nav.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_navbar.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_offcanvas.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_pagination.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_popover.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_progress.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_reboot.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_root.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_spinners.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_tables.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_toasts.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_tooltip.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_transitions.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_type.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_utilities.scss" />
+    <Content Include="assets1\scss\bootstrap\scss\_variables.scss" />
+    <Content Include="assets\css\style.css.map" />
+    <Content Include="assets\css\style.scss" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -387,6 +560,13 @@
     <Compile Include="Mail.aspx.designer.cs">
       <DependentUpon>Mail.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PAT_BookAppointment.aspx.cs">
+      <DependentUpon>PAT_BookAppointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_BookAppointment.aspx.designer.cs">
+      <DependentUpon>PAT_BookAppointment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PAT_Dashboard.aspx.cs">
       <DependentUpon>PAT_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -394,12 +574,68 @@
     <Compile Include="PAT_Dashboard.aspx.designer.cs">
       <DependentUpon>PAT_Dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PAT_Feedback.aspx.cs">
+      <DependentUpon>PAT_Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_Feedback.aspx.designer.cs">
+      <DependentUpon>PAT_Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAT_FeeDoctor.aspx.cs">
+      <DependentUpon>PAT_FeeDoctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_FeeDoctor.aspx.designer.cs">
+      <DependentUpon>PAT_FeeDoctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAT_FeeMedicine.aspx.cs">
+      <DependentUpon>PAT_FeeMedicine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_FeeMedicine.aspx.designer.cs">
+      <DependentUpon>PAT_FeeMedicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAT_FeePathology.aspx.cs">
+      <DependentUpon>PAT_FeePathology.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_FeePathology.aspx.designer.cs">
+      <DependentUpon>PAT_FeePathology.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PAT_HealthCardPage.aspx.cs">
       <DependentUpon>PAT_HealthCardPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PAT_HealthCardPage.aspx.designer.cs">
       <DependentUpon>PAT_HealthCardPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAT_HistoryAppointment.aspx.cs">
+      <DependentUpon>PAT_HistoryAppointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_HistoryAppointment.aspx.designer.cs">
+      <DependentUpon>PAT_HistoryAppointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAT_OrderMedicine.aspx.cs">
+      <DependentUpon>PAT_OrderMedicine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_OrderMedicine.aspx.designer.cs">
+      <DependentUpon>PAT_OrderMedicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAT_PathologyReport.aspx.cs">
+      <DependentUpon>PAT_PathologyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_PathologyReport.aspx.designer.cs">
+      <DependentUpon>PAT_PathologyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAT_UpcomingAppointment.aspx.cs">
+      <DependentUpon>PAT_UpcomingAppointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAT_UpcomingAppointment.aspx.designer.cs">
+      <DependentUpon>PAT_UpcomingAppointment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QRCode.aspx.cs">
