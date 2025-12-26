@@ -65,12 +65,6 @@ To enable QR code scanning and generation, the following NuGet package is used:
 
 Install-Package ZXing.Net -Version 0.16.10
 
-⚙️ Installation & Setup
-
-Clone the repository:
-
-git clone https://github.com/your-username/CEHRMS.git
-
 
 Open the project in Visual Studio
 
